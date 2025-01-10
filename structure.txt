@@ -1,0 +1,15 @@
+Domínio:
+
+    - Entidades.
+      - Criação de entidades/models imutáveis. Utilização do pacote Freezed
+    - Casos de Uso.
+      - Na nova arquitetura recomendada do Flutter, os casos de usos são opicionais. (Recomendável quando a lógica for complexa)
+
+Data:
+
+    - Repositories
+      - Na nova arquitetura, o repository é considerado com SSoT (Single source of truth) que em tradução literal, é "Única fonte de informação".
+        Sendo assim, qualquer informação que queremos receber, salvar e enviar deve ser feito no repository.
+    - Result Dart
+      - Na nova arquitetura, é recomendado o uso do pacote result_dart da Flutterando.    
+
