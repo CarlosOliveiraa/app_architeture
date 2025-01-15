@@ -17,6 +17,8 @@ dependencies:
   json_annotation: ^4.9.0
   lucid_validation: ^1.2.0
   result_dart: ^2.0.0
+  shared_preferences: ^2.3.5
+  dio: ^5.7.0
 
 dev_dependencies:
   flutter_test:

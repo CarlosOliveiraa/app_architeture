@@ -10,6 +10,15 @@ Data:
     - Repositories
       - Na nova arquitetura, o repository é considerado com SSoT (Single source of truth) que em tradução literal, é "Única fonte de informação".
         Sendo assim, qualquer informação que queremos receber, salvar e enviar deve ser feito no repository.
+      - Abstração: Iremos criar uma classe abstrata que será o nosso contrato do repository: abstract interface class
+      - Implementação: Por recomendação da nova arquitetura, eles definem o nome do arquivo e da classe com o Sufixo "remote" ou seja: 
+        user_repository_remote.dart  
     - Result Dart
-      - Na nova arquitetura, é recomendado o uso do pacote result_dart da Flutterando.    
+      - Na nova arquitetura, é recomendado o uso do pacote result_dart da Flutterando.
+
+Service: Camada Suja
+      
+
+
+
 
